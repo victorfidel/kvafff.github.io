@@ -2,6 +2,15 @@
 <head>
 <title>Untitled document</title>
 <style>
+* {
+         box-sizing: border-box;
+      }
+      html, body {
+         margin: 0;
+         padding: 0;
+      }
+    
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap'); * { margin: 0; padding: 0; box-sizing: border-box; } html { font-size: 62.5%; font-family: 'Roboto', sans-serif; } li { list-style: none; } a { text-decoration: none; } 
 
 .header{ border-bottom: 1px solid #E2E8F0; } .navbar { display: flex; justify-content: space-between; align-items: center; padding: 1rem 1.5rem; }
@@ -14,13 +23,14 @@
 
 .hamburger.active .bar:nth-child(2) { opacity: 0; } .hamburger.active .bar:nth-child(1) { transform: translateY(8px) rotate(45deg); } .hamburger.active .bar:nth-child(3) { transform: translateY(-8px) rotate(-45deg); } 
 
-.navbar { background:#ff6600;  position: fixed; width: 100%;}
+.navbar { background:#ff6600;  position: absolute; width: 100%;}
  
-.main-bar { width: 100%; background: #e05a00; height: 30px; position: fixed; top: 48px; border-bottom: 1px solid grey;}   
+.main-bar { width: 100%; background: #e05a00; height: 30px; position: absolute; top: 40px; border-bottom: 1px solid grey;}   
 .text {color: black;  font-size: 1.20rem; padding: 5px; text-align: center;}        
 .nav-menu {background: #ff6600;}
-
+.aligntext {font-size: 3rem; color: black; margin: 20px; padding: 10px; font-family: serif; width: 90%; height: 550px; background: #FF8A3D; border-radius: 10px 50px;}
 </style>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 <body>
 <header class="header"> <nav class="navbar"> <a href="#" class="nav-logo">kvaf</a> <ul class="nav-menu"> <li class="nav-item"> <a href="#" class="nav-link">Services</a> </li> <li class="nav-item"> <a href="#" class="nav-link">Blog</a> </li> <li class="nav-item"> <a href="#" class="nav-link">About</a> </li> <li class="nav-item"> <a href="#" class="nav-link">Contact</a> </li> </ul> <div class="hamburger"> <span class="bar"></span> <span class="bar"></span> <span class="bar"></span> </div> </nav>
@@ -31,80 +41,111 @@
 
 </article>
 </main>
-<br/><br/><br/><br/><br/><br/>
-
+</br></br></br></br></br>
 <div>
-<h1 style="padding: 40%; text-align: center; font-size: 3rem; color:#ff6600 ;"> website designing and development </h1>
+<h1 style="padding: 10%; text-align: center; font-size: 3rem; color:#ff6600 ;"> website designing and development </h1>
+<div class="row">
+<div class="col-6">
+<img src="C:\Users\user\Pictures\FB_IMG_16428868298227040.jpg" style="width: 100%; height: 60%; padding: 10px; border-radius: 50%;">
+</div>
+<div class="col-6"><h1 style="padding: 5%; text-align: center; font-size: 3rem; color:#ff6600 ; font-family: fantasy;">About Me</h1><div class="aligntext"> <p>My name is Victor Fidelis and I am a website designer and developer.</p> <p> I base in Abuja, Nigeria. My home town is in cross river state, Nigeria.</p> <p> I design and develope any kind of website, according to your preference.</p> <p> Contact me today, to get your website ready and running.</p></div>
 
-<img src="file:///storage/emulated/0/Xender/image/FB_IMG_16428868298227040.jpg" style="width: 100%; height: 80%; border-radius: 50%;">
+ </div>
+</div>
+</div>
+</br>
+<div class="row">
+<div class="col-6">
+<img src="C:\Users\user\Pictures\FB_IMG_16685202625099989.jpg" style="width: 100%; height: 60%; padding: 10px; border-radius: 50%;">
+</div>
+<div class="col-6"> <h1 style="padding: 10%; text-align: center; font-size: 3rem; color:#ff6600 ; font-family: fantasy;">Fulstack Developer</h1> <ul style="text-align: center; font-size: 3rem; color: #ff6600 ;" > <li>HTML</li> <li>CSS</li> <li>Javascript</li> <li>Bootstrap</li> <li>Java</li> <li>PHP</li> <li>JQuery</li> <li>React JS</li> <li>Node JS</li> </ul></div>
+</div>
+<h3 style="padding: 46%; padding-top: 15px; font-size: 15px;"><a href="#"><em>contact details</em> </a></h3>
+<br/>
+
+<div class="row">
+<div class="col-6">
+<div style="width: 100%; height: 80px; background: #ff6600; font-size: 3rem; font-family: fantasy; text-align: center; padding: 10px;"> Daniels kitchen
+</div>
+<img src="C:\Users\user\Pictures\FB_IMG_16689772726880347.jpg" style="width: 100%; height: 60%; padding-rigt:10px; padding-left: 10px;">
+</div>
+</br> </br></br></br></br></br>
+<div class="col-6"> <div style="width: 100%; height: 95%; background: #FF8A3D; font-size: 4.5rem; padding: 10px; font-family: fantasy;">Tasty and Delicious foods.Your order is delivered right to your door step, Hot and on time. <h3 style="text-align: center; font-size: 2.5rem; font-family: none; padding-top: 15px;"><a href="#"><em>place an order now</em> </a></h3></div> </div>
 </div>
 
-<h1 style="padding: 10%; text-align: center; font-size: 3rem; color:#ff6600 ; font-family: fantasy;">fulstack developer</h1>
-
-<img src="file:///storage/emulated/0/Pictures/facebook/FB_IMG_16685202625099989.jpg" style="width: 100%; height: 80%;">
-<h3 style="padding: 15px; font-size: 15px;"><a href="#"><em>contact details</em> </a></h3>
+<br/><br/><br/><br/><br/>
+<div>
+<a href="#"><img src="C:\Users\user\Pictures\FB_IMG_16685206464853428.jpg" style="width:40%; height: 30%; padding: 10px;"><h3 style="padding-left: 10px; padding-top: 5px; font-size: 15px;"><em>learn programming from scratch</em> </h3></a>
+</div>
 <br/><br/><br/><br/>
 
-<div style="width: 100%; height: 80px; background: #ff6600; padding: 15px; font-size: 3rem; font-family: fantasy;">Daniels kitchen 
+<div class="row">
+<div class="col-6">
+<div style="padding: 10px;">
+<div style="width: 100%; height: 60px; background: #ff6600; padding: 10px; font-size: 3rem; font-family: fantasy; text-align: center;">Audio download 
 </div>
-<img src="file:///storage/emulated/0/Pictures/facebook/FB_IMG_16689772726880347.jpg" style="width: 100%; height: 60%;">
-<h3 style="padding: 15px; font-size: 15px;"><a href="#"><em>place an order now</em> </a></h3>
-
-<br/><br/><br/><br/><br/><br/><br/>
-<div>
-<img src="file:///storage/emulated/0/Pictures/facebook/FB_IMG_16685206464853428.jpg" style="width:60%; height: 30%; padding: 15px;"><h3 style="padding: 10px; font-size: 15px;"><a href="#"><em>learn programming from scratch</em> </a></h3>
-</div>
-<br/><br/><br/><br/>
-
-<div style="width: 100%; height: 80px; background: #ff6600; padding: 15px; font-size: 3rem; font-family: fantasy;">Audio download 
-</div>
-<p style="padding-top: 15px; padding-left: 10px; font-size: 1.8rem;">Brandy-piano</p>
-<audio src="file:///storage/emulated/0/xender/audio/Brandy - Piano Man.mp3" controls style="position: relative; bottom: 30px; left: 40%; width: 58%; padding-bottom: 10px;"></audio>
+<div style="background: grey;>
+<h1 style="color: red; padding-left: 5px;"> mp3 </h1>
+<p style="padding-top: 15px; padding-left: 10px; font-size: 1.8rem; ">Brandy-piano</p>
+<audio src="file:///storage/emulated/0/xender/audio/Brandy - Piano Man.mp3" controls style="position: relative; bottom: 30px; left: 40%; width: 55%; padding-bottom: 10px;"></audio>
 <span style="font-size: 1.8rem;"><a href="#"><em>download here</em></a></span>
-<div style="width:100%; height: 1px; background: grey;"></div>
+<div style="width:60%; height: 1px; background: grey;"></div>
 
 <p style="padding-top: 15px; padding-left: 10px; font-size: 1.8rem;">Maroon-mem</p>
-<audio src="file:///storage/emulated/0/xender/audio/Maroon-5-memories-via-Naijafinix.com_.mp3" controls style="position: relative; bottom: 30px; left: 40%; width: 58%; padding-bottom: 10px;"></audio>
+<audio src="file:///storage/emulated/0/xender/audio/Maroon-5-memories-via-Naijafinix.com_.mp3" controls style="position: relative; bottom: 30px; left: 40%; width: 55%; padding-bottom: 10px;"></audio>
 <span style="font-size: 1.8rem;"><a href="#"><em>download here</em></a></span>
-<div style="width:100%; height: 1px; background: grey;"></div>
+<div style="width:60%; height: 1px; background: grey;"></div>
 
 <p style="padding-top: 15px; padding-left: 10px; font-size: 1.8rem;">Empire-good</p>
-<audio src="file:///storage/emulated/0/xender/audio/toMp3/empire_Cast_-_Good_Enough(360p).mp3" controls style="position: relative; bottom: 30px; left: 40%; width: 58%; padding-bottom: 10px;"></audio>
+<audio src="file:///storage/emulated/0/xender/audio/toMp3/empire_Cast_-_Good_Enough(360p).mp3" controls style="position: relative; bottom: 30px; left: 40%; width: 55%; padding-bottom: 10px;"></audio>
 <span style="font-size: 1.8rem;"><a href="#"><em>download here</em></a></span>
-<div style="width:100%; height: 1px; background: grey;"></div>
+<div style="width:60%; height: 1px; background: grey;"></div>
 
 <p style="padding-top: 15px; padding-left: 10px; font-size: 1.8rem;">W.A-majesty</p>
-<audio src="file:///storage/emulated/0/Xender/audio/W a majesty.mp3" controls style="position: relative; bottom: 30px; left: 40%; width: 58%; padding-bottom: 10px;"></audio>
+<audio src="file:///storage/emulated/0/Xender/audio/W a majesty.mp3" controls style="position: relative; bottom: 30px; left: 40%; width: 55%; padding-bottom: 10px;"></audio>
 <span style="font-size: 1.8rem;"><a href="#"><em>download here</em></a></span>
-<div style="width:100%; height: 1px; background: grey;"></div>
+<div style="width:60%; height: 1px; background: grey;"></div>
 
 <p style="padding-top: 15px; padding-left: 10px; font-size: 1.8rem;">Toni-my heart</p>
-<audio src="file:///storage/emulated/0/Xender/audio/Toni_Braxton_-_Un-break_My_Heart_Qoret.com.mp3" controls style="position: relative; bottom: 30px; left: 40%; width: 58%; padding-bottom: 10px;"></audio>
+<audio src="file:///storage/emulated/0/Xender/audio/Toni_Braxton_-_Un-break_My_Heart_Qoret.com.mp3" controls style="position: relative; bottom: 30px; left: 40%; width: 55%; padding-bottom: 10px;"></audio>
 <span style="font-size: 1.8rem;"><a href="#"><em>download here</em></a></span>
-<div style="width:100%; height: 1px; background: grey;"></div>
+<div style="width:60%; height: 1px; background: grey;"></div>
 
 <p style="padding-top: 15px; padding-left: 10px; font-size: 1.8rem;">Nathaniel-life</p>
-<audio src="file:///storage/emulated/0/Xender/audio/book of life.mp3" controls style="position: relative; bottom: 30px; left: 40%; width: 58%; padding-bottom: 10px;"></audio>
+<audio src="file:///storage/emulated/0/Xender/audio/book of life.mp3" controls style="position: relative; bottom: 30px; left: 40%; width: 55%; padding-bottom: 10px;"></audio>
 <span style="font-size: 1.8rem;"><a href="#"><em>download here</em></a></span>
-
-<div style="width: 100%; height: 30px; background: #ff6600; padding: 15px; font-size: 3rem; font-family: fantasy;">
 </div>
-<br/><br/><br/><br/>
-<h1 style="font-size: 6rem; font-family: fantasy; margin-top: 40%;">Fashion and style </h1>
-<img src="file:///storage/emulated/0/Pictures/facebook/FB_IMG_16689815819116713.jpg" style="width: 100%; height: 80%;">
 
-<img src="file:///storage/emulated/0/Pictures/facebook/FB_IMG_16689817223948833.jpg" style="width: 100%; height: 35%;">
+<div style="width: 100%; height: 30px; background: #ff6600; padding: 10px; font-size: 3rem; font-family: fantasy;">
+</div>
+</div>
+</div>
+<br/><br/><br/><br/><br/><br/>
+<div class="col-6"> <div style="width: 100%; height: 75%; background: #FF8A3D; font-size: 4.5rem; padding: 10px; font-family: fantasy;">Three places where you can get the new currency note with no extra charges.<h3 style="text-align: center; font-size: 2.5rem; font-family: none; padding-top: 15px;"><a href="#"><em>check it out</em> </a></h3></div> </div>
+</div>
+<br/><br/><br/> <br/><br/><br/>
+
+<div class="row">
+<div class="col-6">
+<div style="padding: 10px;">
+<h1 style="font-size: 6rem; font-family: fantasy; text-align: center;">Fashion and style </h1>
+<img src="C:\Users\user\Pictures\FB_IMG_16689815819116713.jpg" style="width: 100%; height: 60%;">
+
+<img src="C:\Users\user\Pictures\FB_IMG_16689817223948833.jpg" style="width: 100%; height: 30%;">
 
 <br/><br/>
 
-<p style="font-size: 2.5rem; text-align: center;"><a href="#"><em>see more latest fashions</em> </a></p>
-<br/><br/><br/><br/><br/><br/>
+<p style="font-size: 2.5rem; text-align: center;"><a href="#"><em>see all latest fashions</em> </a></p>
+</div>
+</div>
+<div class="col-6"> <div style="font-size: 2rem; font-family: fantasy; padding: 10%;"> <img src="C:\Users\user\Pictures\FB_IMG_16725626101862342.jpg" style="width: 100%; height: 60%;"></br></br> Leaders are learners, and learners are Readers. start reading Today to open a whole new world of knowledge with <a href="#">KING VIC LIBRARY.</a></div>  </div>
+<br/><br/><br/>
 
 
 <footer>
 <div style="width: 100%; height: 50%; background: #ff6600;"><p style="text-align: center; font-size: 3rem; color: white; padding-top: 15px;"><b>kvaf</b></p></div>
 
-<div style="width: 100%; height: 50px; background: #e05a00; text-align: center;"><p style="font-size: 1.5rem; padding-top: 15px;"><em>@All right reserved kvaf 2022</em></p></div>
+<div style="width: 100%; height: 50px; background: #e05a00; text-align: center;"><p style="font-size: 1.5rem; padding-top: 15px;"><em>©All right reserved kvaf 2023</em></p></div>
 
 </footer>
 
@@ -119,5 +160,3 @@ const navLink = document.querySelectorAll(".nav-link"); navLink.forEach(n => n.a
 
 </body>
 </html>
-
-
